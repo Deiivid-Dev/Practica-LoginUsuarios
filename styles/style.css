@@ -1,0 +1,92 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    background-color: #efefef;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    font-size: 2rem;
+}
+
+label, input {
+    font-size: 1.8rem;
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formulario {
+    margin-top: 5rem;
+}
+
+input {
+    width: 100%;
+}
+
+.boton {
+    width: 20%;
+    margin: 1rem auto;
+    padding: .5rem;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+label {
+    margin: .5rem;
+}
+
+.form__crearCuenta {
+    text-align: center;
+}
+
+.crear-cuenta {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
